@@ -38,5 +38,5 @@ Esta aplicación web está construida con React y consume la API creada en la Pa
    ```bash
    npm run dev
    ```
-4. **Video**
+   ## Video
   https://github.com/user-attachments/assets/2985aea1-bf8d-40fd-b553-f3055ea38df7
