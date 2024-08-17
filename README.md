@@ -1,189 +1,42 @@
-# Nombre del Proyecto
+# Parte 2: Frontend con React
 
-Una breve descripción de lo que hace tu proyecto y su propósito.
+## Descripción del Proyecto
 
-## Tabla de Contenidos
+Esta aplicación web está construida con React y consume la API creada en la Parte 1. Está diseñada para dispositivos móviles, siguiendo el diseño de interfaz especificado. La aplicación permite a los usuarios:
 
-- [Descripción](#descripción)
-- [Características](#características)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Ejemplos](#ejemplos)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
+- Ver los datos del usuario.
+- Modificar el “Name”.
+- Modificar el “Username”.
+- Modificar la “Password”.
 
-## Descripción
+**Nota:** Otras funciones que figuran en el diseño no están implementadas en esta prueba.
 
-Aquí puedes proporcionar una descripción detallada del proyecto, incluyendo los objetivos, el problema que resuelve, y cualquier contexto relevante.
+## Requerimientos
 
-### Ejemplo de Descripción
+1. **Uso de Hooks de React**
 
-"Este proyecto es una aplicación web para gestionar tareas diarias, permitiendo a los usuarios crear, editar y eliminar tareas. La aplicación incluye autenticación de usuario, integración con calendarios y una interfaz intuitiva."
+   - Utiliza `useState`, `useEffect`, `React-Router-Dom`.
 
-## Características
+2. **Formularios con Validaciones**
+   - Manejo de [Formik](https://formik.org/)
+3. **Librería de Componentes UI**
+   - [Material UI](https://mui.com/)
 
-- **Autenticación de Usuarios**: Los usuarios pueden registrarse e iniciar sesión.
-- **Gestión de Tareas**: Crear, editar y eliminar tareas.
-- **Notificaciones**: Recordatorios y notificaciones por correo electrónico.
-- **Interfaz Intuitiva**: Diseñada para una experiencia de usuario fluida.
+## Instrucciones de Configuración y Ejecución
 
-## Tecnologías Utilizadas
-
-- **Frontend**:
-
-  - React.js
-  - Tailwind CSS
-  - Axios
-
-- **Backend**:
-
-  - Node.js
-  - Express.js
-  - MongoDB
-
-- **Otros**:
-  - Docker
-  - Jest (para pruebas)
-  - Git
-
-## Instalación
-
-Guía paso a paso para instalar y configurar el proyecto en tu entorno local.
-
-### Requisitos
-
-- **Node.js**: >= v14.x.x
-- **npm**: >= 6.x.x
-- **MongoDB**: (Si estás utilizando una base de datos MongoDB local o en la nube)
-
-### Pasos para la Instalación
-
-1. **Clonar el Repositorio**:
+1. **Clonar el Repositorio**
 
    ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+   https://github.com/YonatanLLa/prueba_tecnica_front.git
    ```
 
-2. **Navegar al Directorio del Proyecto**:
-
-   ```bash
-   cd nombre-del-repositorio
-   ```
-
-3. **Instalar las Dependencias**:
-
+2. **Instalar**
    ```bash
    npm install
    ```
-
-4. **Configurar Variables de Entorno**:
-   Crea un archivo `.env` en la raíz del proyecto y añade las variables necesarias. Ejemplo:
-
-   ```
-   MONGO_URI=mongodb://localhost:27017/mi-db
-   JWT_SECRET=mi-secreto
-   ```
-
-5. **Iniciar el Servidor de Desarrollo**:
+3. **Correr el Poryecto**
    ```bash
-   npm start
+   npm run dev
    ```
-
-## Uso
-
-Instrucciones sobre cómo utilizar el proyecto después de la instalación.
-
-### Iniciar la Aplicación
-
-1. **Ejecutar el Servidor**:
-
-   ```bash
-   npm start
-   ```
-
-2. **Acceder a la Aplicación**:
-   Abre tu navegador y visita `http://localhost:3000`.
-
-### Comandos Adicionales
-
-- **Construir la Aplicación para Producción**:
-
-  ```bash
-  npm run build
-  ```
-
-- **Ejecutar Pruebas**:
-  ```bash
-  npm test
-  ```
-
-## Ejemplos
-
-Proporciona ejemplos de cómo utilizar características específicas de tu aplicación.
-
-### Ejemplo de Crear una Tarea
-
-1. **Solicitar una Tarea**:
-
-   ```bash
-   POST /tasks
-   {
-     "title": "Nueva Tarea",
-     "description": "Descripción de la tarea",
-     "dueDate": "2024-12-31"
-   }
-   ```
-
-2. **Respuesta Exitosa**:
-   ```json
-   {
-     "id": "12345",
-     "title": "Nueva Tarea",
-     "description": "Descripción de la tarea",
-     "dueDate": "2024-12-31",
-     "status": "Pendiente"
-   }
-   ```
-
-## Contribución
-
-Guía sobre cómo contribuir al proyecto. Incluye detalles sobre el flujo de trabajo para contribuciones y el proceso para enviar pull requests.
-
-### Cómo Contribuir
-
-1. **Fork el Repositorio**.
-2. **Crea una Rama** para tus cambios:
-   ```bash
-   git checkout -b mi-nueva-característica
-   ```
-3. **Haz tus Cambios y Commit**:
-   ```bash
-   git commit -am 'Agrega nueva característica'
-   ```
-4. **Haz Push a tu Rama**:
-   ```bash
-   git push origin mi-nueva-característica
-   ```
-5. **Crea un Pull Request** en GitHub.
-
-### Código de Conducta
-
-Incluye un código de conducta para asegurar un entorno de colaboración respetuoso.
-
-## Licencia
-
-Especifica la licencia bajo la cual se distribuye el proyecto.
-
-### Ejemplo de Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
-## Contacto
-
-Proporciona información de contacto para preguntas o soporte adicional.
-
-- **Nombre**: [Tu Nombre]
-- **Correo Electrónico**: [tu-email@example.com]
-- **LinkedIn**: [https://www.linkedin.com/in/tu-perfil](https://www.linkedin.com/in/tu-perfil)
+4. **Video**
+   Puedes ver el video en [/src/assets/proyecto.mp4](URL_DEL_VIDEO).

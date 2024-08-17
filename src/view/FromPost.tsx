@@ -91,11 +91,11 @@ export default function FormChangeProfile() {
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
-        height: "calc(100vh - 60px)",
+        height: "100vh",
       }}
     >
       <Typography variant="h4" gutterBottom>
-        Editar Perfil
+        Ingresar Usuario
       </Typography>
       <form onSubmit={formik.handleSubmit}>
         <TextField
