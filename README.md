@@ -39,4 +39,4 @@ Esta aplicación web está construida con React y consume la API creada en la Pa
    npm run dev
    ```
 4. **Video**
-   Puedes ver el video en [/src/assets/proyecto.mp4](URL_DEL_VIDEO).
+  https://github.com/user-attachments/assets/2985aea1-bf8d-40fd-b553-f3055ea38df7
